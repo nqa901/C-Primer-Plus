@@ -4,6 +4,12 @@
 #include <cmath>
 using namespace std;
 
-double sqrtX(double x) {
-	return sqrt(x);
+int main() {
+	double area;
+	cout << "Please enter an area of a square: ";
+	cin >> area;
+	double l;
+	l = sqrt(area);
+	cout << l << endl;
+	return 0;
 }
